@@ -42,7 +42,7 @@ def show_help():
         "help": "Outputs a list of teams",
         "close або exit": "Exit the program"
     }
-    help_text = "Доступні команди:\n"
+    help_text = "Commands:\n"
     for cmd, desc in commands.items():
         help_text += f"  {cmd}: {desc}\n"
     return help_text
